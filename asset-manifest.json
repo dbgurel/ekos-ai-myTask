@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ekos-ai-myTask/static/css/main.60db29b6.css",
+    "main.js": "/ekos-ai-myTask/static/js/main.94d3247d.js",
+    "static/js/787.783ae640.chunk.js": "/ekos-ai-myTask/static/js/787.783ae640.chunk.js",
+    "index.html": "/ekos-ai-myTask/index.html",
+    "main.60db29b6.css.map": "/ekos-ai-myTask/static/css/main.60db29b6.css.map",
+    "main.94d3247d.js.map": "/ekos-ai-myTask/static/js/main.94d3247d.js.map",
+    "787.783ae640.chunk.js.map": "/ekos-ai-myTask/static/js/787.783ae640.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60db29b6.css",
+    "static/js/main.94d3247d.js"
+  ]
+}
