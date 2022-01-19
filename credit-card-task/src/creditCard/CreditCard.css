@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.creditCardContainer{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.disabled{
+    display: none;
+}
+.btnContainer{
+    width: 400px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.btn{
+    background-color: rgb(11, 116, 236);
+    color:#fff;
+    padding: 7px;
+    border-radius: 10px;
+}
+.frontView{
+    width: 450px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.25rem;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.content{
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: start;
+}
+.frontChip{
+    height: 60px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+.cardNumbers{
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.numberInput{
+    font-size: 22pt;
+    width: 300px;
+    height: max-content;
+}
+.backView{
+    width: 450px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.25rem;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    
+}
+.backContent{
+    margin-left:10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.backContent span{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    font-size: large;
+}
+.cardStrip{
+    position: absolute;
+    width: 445px;
+    height: 50px;
+    top:260px;
+    background-color: black;
+}
+.dateInput{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.ccvInput{
+    width: 70px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.errorContainer{
+    width:400px;
+    height: fit-content;
+}
+.errorContainer span {
+    color:red;
+    font-size: 10pt;
+}
+.altBtnContainer{
+    width: 150px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}
